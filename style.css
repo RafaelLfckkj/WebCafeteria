@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+  background-color: antiquewhite;
+  padding: 10px;
+}
+
+.navegacao {
+  display: flex;
+  margin-left: 100px;
+}
+
+.links {
+  gap: 100px;
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+a:hover {
+  color: #c75a1b;
+}
+
+.logo {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.botao {
+  background-color: #c75a1b;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: 100px;
+}
+
+.botao:hover {
+  color: white;
+  background-color: rgb(130, 66, 43);
+}
+
+.imgPrincipal {
+  width: 100%;
+  height: 635px;
+  background-size: cover;
+  background-image: url(./FundoHome.jpeg);
+}
+
+.principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logop2 {
+  margin-top: 100px;
+  border-radius: 30px;
+}
+
+.principal2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+}
+
+.textos {
+  text-align: center;
+}
+
+.textos p {
+  margin-top: 10px;
+}
+
+.tes {
+  color: white;
+  gap: 3px;
+  margin-top: 30px;
+}
+
+.car {
+  background-color: #c75a1b;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+}
+
+.car:hover {
+  background-color: #6a4129;
+  padding: 25px;
+  color: white;
+}
+
+.ped {
+  color: white;
+  border: 2px solid white;
+  padding: 15px;
+  border-radius: 10px;
+}
+.ped:hover {
+  color: white;
+  padding: 25px;
+}
